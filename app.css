@@ -1,0 +1,57 @@
+.wrapper {
+    display: inline-grid;
+    grid-gap: 10px;
+    grid-template-columns: 320px 10px 520px;
+}
+
+.instructions {
+    border: 1px solid black;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 5px;
+    text-align: center;
+}
+
+.game { 
+    border: 1px solid black;
+    grid-column-start: 3;
+    grid-column: 100px 100px 100px;
+    grid-column-gap: 20px;
+    display: grid;
+    /* flex-wrap: wrap; */
+}
+
+button {
+    display: block;
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #94E386;
+}
+
+h1, h2{
+    font-family: fantasy;
+    font-weight: 800;
+}
+
+p{
+    font-family: fantasy;
+}
+
+.card-name{
+    display: inline-block;
+}
+
+img{
+    margin: auto;
+    grid-auto-columns: auto;
+    /* padding: 5px; */
+}
